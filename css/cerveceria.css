@@ -89,14 +89,27 @@ main{color: white;
     opacity: 0.7;}
 
 main h1{height: 10%;}
+
 main p{height: 50%;
-width: 60%;}
+        width: 60%;}
+
 main img{height: 30%;
         width: auto;}
 
+
 .main-eventos{color: white;
-    display: flex;
-    justify-content: space-evenly;}
+                display: flex;
+                justify-content: space-evenly;
+                height: 1200px;}
+
+.instagram-media{height: 80%;
+                width:auto}
+
+.div-eventos{display: grid;
+            height: 1000px;
+            grid-template-columns: 400px 400px 400px;
+            column-gap: 20px;}
+
 
 a{text-decoration: none;
     color: white;
@@ -119,3 +132,21 @@ h1{color: white;
 }
 
 div{height: auto;}
+
+
+
+
+@media only screen and (min-width:600 px) {
+    
+    #header{height: 300px;;
+        text-decoration: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;        
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;}
+
+}
