@@ -1,0 +1,11 @@
+
+@import "reset.scss";
+
+@import "bootstrap.scss";
+
+@import "generales.scss";
+
+@import "body.scss"; 
+// el scss del body contiene los demas scss estructurales
+
+@import "mediaqueries.scss";

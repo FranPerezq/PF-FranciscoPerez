@@ -1,0 +1,47 @@
+main{color: white;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    // background-image: url(/PROYECTO/img/Bari-1.jpeg);
+    // background-image: url(/PROYECTO/img/fondo.jpg);
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // background-size: cover;
+    
+
+    h1{height: 10%;
+        width: 50%;}
+
+    p{height: 60%;
+        width: 70%;
+    font-size: auto;}
+
+    img{height: 30%;
+        width: auto;
+        }
+
+    }
+
+
+.main-eventos{color: white;
+                display: flex;
+                justify-content: space-evenly;
+                height: 1200px;
+            h1{font-size: 30 px;}}
+
+.main-contacto{color: white;
+    display: flex;
+    justify-content: start;
+    height: 800px;
+h1{font-size: 30 px;}}
+
+.div-eventos{display: grid;
+                    height: 1000px;
+                    width: 80%;
+                    gap: 20px;
+                    grid-template-columns: repeat(auto-fit, minmax(328px, 1fr))
+                    }
+
+// .titulo-eventos{font-size: 30px;}

@@ -1,0 +1,14 @@
+body{background-color: black;
+    background-image: url(/PROYECTO/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;}
+
+
+    @import "header.scss";
+    @import "footer.scss";
+    @import "nav.scss";
+    @import "main.scss";
+    

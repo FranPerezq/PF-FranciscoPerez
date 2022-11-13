@@ -1,0 +1,18 @@
+@media only screen and (max-width:600px) {
+        
+    header{
+        flex-direction: column;}
+    header h1{font-size: small;}
+    
+    nav ul{display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;}
+    div{height: 150px;
+        h1{font-size: small;
+        }
+        }
+    main{height: 1200px;}
+    .main-eventos{height: 1600px;}
+}

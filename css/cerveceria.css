@@ -1,172 +1,195 @@
-*{margin: 0;
-padding: 0;}
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0; }
 
+.bi-instagram {
+  font-size: 50px;
+  size: 100px; }
 
-.bi-instagram{font-size: 50px;
-            size: 100px;}
+p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center; }
 
+.instagram-media {
+  height: 80%;
+  width: 80%; }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
 
-p{color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;}
+.menulink {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px; }
 
+img {
+  height: auto;
+  width: 30%; }
 
-body{background-color: black;
-    text-align: center;
-    text-decoration: none;}
+img:hover {
+  scale: 1.5;
+  transition: 3s; }
 
-header{height: 300px;;
-        text-decoration: none;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;        
-        background-color: black;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;}
-header h1{font-size: xx-large;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header h1:hover{color: gold;}
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  height: 20%;
+  width: 30%; }
 
-footer{text-align: center;
-        background-color: black;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 100 px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;}
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  height: 5%;
+  width: 30%; }
 
-nav{height: 70px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;}
+div {
+  height: auto; }
 
-    nav ul{display: flex;
+button {
+  border: 0;
+  size: 30px; }
+
+body {
+  background-color: black;
+  background-image: url(/PROYECTO/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  text-decoration: none; }
+
+header {
+  height: 300px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  header h1 {
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  header h1:hover {
+    color: gold; }
+
+footer {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100 px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80%; }
+    footer ul li {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      text-decoration: none;
+      display: inline;
+      height: 100%;
+      width: 100%; }
+      footer ul li a {
+        color: gold; }
+
+nav {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  nav ul {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;}
+    width: 80%; }
+    nav ul li {
+      background-color: #f6d72a;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 50px;
+      text-decoration: none;
+      color: black;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px; }
 
-footer ul{display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 80%;
-        height: 80%;}    
+main {
+  color: white;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+  main h1 {
+    height: 10%;
+    width: 50%; }
+  main p {
+    height: 60%;
+    width: 70%;
+    font-size: auto; }
+  main img {
+    height: 30%;
+    width: auto; }
 
-        footer ul li{
-            background-color: black;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 50px;
-            text-decoration: none;
-            display: inline;
-            height: 100%;
-            width: 100%;}
-        footer ul li a{color:gold}   
+.main-eventos {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 1200px; }
+  .main-eventos h1 {
+    font-size: 30 px; }
 
+.main-contacto {
+  color: white;
+  display: flex;
+  justify-content: start;
+  height: 800px; }
+  .main-contacto h1 {
+    font-size: 30 px; }
 
+.div-eventos {
+  display: grid;
+  height: 1000px;
+  width: 80%;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr)); }
 
-
-nav ul li{background-color: rgb(246, 215, 42);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-border-radius: 15px;}
-
-main{color: white;
-    height: 800px;
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column; }
+  header h1 {
+    font-size: small; }
+  nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url(/PROYECTO/img/Bari-1.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 0.7;}
-
-main h1{height: 10%;
-        width: 50%;}
-
-main p{height: 50%;
-        width: 60%;}
-
-main img{height: 30%;
-        width: auto;}
-
-
-.main-eventos{color: white;
-                display: flex;
-                justify-content: space-evenly;
-                height: 1200px;}
-
-.instagram-media{height: 80%;
-                width:80%
-            }
-
-.div-eventos{display: grid;
-            height: 1000px;
-            width: 80%;
-            gap: 20px;
-            grid-template-columns: repeat(auto-fit, minmax(328px, 1fr))
-            }
-
-
-a{text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px}
-
-
-
-img{height: auto;
-        width: 30%;}
-img:hover{scale: 1.5;
-            transition: 3s;}
-
-
-
-h1{color: white;
-    font-size: 30px;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    height: 20%;
-    width: 30%;
-}
-
-div{height: auto;}
-
-
-
-@media only screen and (max-width:600px) {
-    
-    header{
-        flex-direction: column;}
-    header h1{font-size: small;}
-    
-    nav ul{display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            width: 80%;}
-    div{height: 150px;}
-    main{height: 1200px;}
-    .main-eventos{height: 1600px;}
-    div h1{font-size: small;}
-}   
+    width: 80%; }
+  div {
+    height: 150px; }
+    div h1 {
+      font-size: small; }
+  main {
+    height: 1200px; }
+  .main-eventos {
+    height: 1600px; } }
