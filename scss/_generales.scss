@@ -35,15 +35,25 @@ h1{color: white;
                     width: 30%;
                 }
                 
-h2{color: white;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration:none;
-height: 5%;
-width: 30%;}
+
     
 div{height: auto;}
 
+@mixin estilo_titulos ($color, $fontsize) {
+    font-size: $fontsize;
+    color: $color;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+h2{
+        // color: white;
+        // font-size: 30px;
+        @include estilo_titulos(white, 30px);
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration:none;
+        height: 5%;
+        width: 30%;}
 
 button{border: 0;
 size: 30px;}

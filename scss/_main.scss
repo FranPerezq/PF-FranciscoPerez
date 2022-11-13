@@ -24,18 +24,26 @@ main{color: white;
 
     }
 
+.main-base{color: white;
+            display: flex;}
 
-.main-eventos{color: white;
-                display: flex;
-                justify-content: space-evenly;
-                height: 1200px;
-            h1{font-size: 30 px;}}
+.main-eventos{
+    // color: white;
+    // display: flex;
+    @extend .main-base;
+        justify-content: space-evenly;
+        height: 1200px;
+        h1{font-size: 30 px;}}
+                
 
-.main-contacto{color: white;
-    display: flex;
-    justify-content: start;
-    height: 800px;
-h1{font-size: 30 px;}}
+.main-contacto{
+    // color: white;
+    // display: flex;
+    @extend .main-base;
+        justify-content: start; 
+        height: 800px;
+        h1{font-size: 30 px;}
+    }
 
 .div-eventos{display: grid;
                     height: 1000px;
